@@ -1,4 +1,4 @@
-# Test SharePoint Site Access  - Java Version
+# SharePoint Site Access Test - Java Version
 
 This Java application tests SharePoint site access permissions using the Microsoft Graph API with certificate-based authentication. It's a Java conversion of the original PowerShell script that performs the same functionality.
 

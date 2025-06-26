@@ -1,0 +1,17 @@
+# SharePoint Site Access Test Configuration - SAMPLE
+# Copy this file to config.properties and modify the values to match your environment
+
+# Azure AD / Microsoft Entra ID configuration
+azure.tenantId=your-tenant-id-here
+azure.clientId=your-client-id-here
+
+# SharePoint site configuration
+sharepoint.siteUrl=https://your-tenant.sharepoint.com/sites/your-site
+
+# Certificate configuration (PEM format)
+certificate.certificatePath=C:\\path\\to\\your\\certificate.pem
+certificate.privateKeyPath=C:\\path\\to\\your\\private-key.pem
+
+# Test configuration
+test.type=Both
+# Valid values: Read, Write, Both
